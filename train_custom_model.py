@@ -46,7 +46,7 @@ def preprocess_chinese_text(file_path):
     return sentences
 
 # 定义语料路径（替换为你的实际路径）
-corpus_path = r"E:\python\大模型应用开发\Word2Vec_Project\data\corpus\zhizhitongjian01(1).txt"
+corpus_path = r"E:\python\大模型应用开发\Word2Vec_Project\data\corpus\sgyy.txt"
 
 # 调用预处理函数
 sentences = preprocess_chinese_text(corpus_path)
